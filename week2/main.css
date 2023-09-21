@@ -1,0 +1,247 @@
+* {
+    font-weight: bold;
+    font-family: "Cairo", sans-serif, "Open Sans", 'Jomhuria';
+    word-spacing: 4px;
+    letter-spacing:1px;
+
+}
+/* assg 1 , 5-8 */
+.title-container,.title-container-big-title,.title-container-sml{
+    background-color: bisque;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid rgb(33, 216, 248);
+    border-radius: 13px;
+    margin-bottom: 10px;
+}
+.title-container-sml{
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(18, 29, 31);
+}
+.title-container-big-title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,137,144,1) 25%, rgba(0,212,255,1) 100%);
+}
+.title-container-big-title > p{
+    display: block;
+    font-weight: bold;
+    font-family: "Cairo", sans-serif;
+    font-size: large;
+    padding: 5px 0px 0px;
+    text-align: center;
+    margin: auto;
+}
+
+.ass-title-sml > span{
+    display: block;
+    direction: ltr;
+    color:red;
+    
+    padding: 0px 0px 0px;
+    margin: auto;
+}
+.ass-title-sml > span > a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: -6px 0 0;
+}
+.ass-title-sml > span > a:hover{
+    color: rgb(12, 190, 71);
+}
+
+
+.ass-title{
+    direction: rtl;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Cairo", sans-serif;
+    margin: auto;
+    padding-top: 10px;
+}
+.ass-title > span{
+    direction: ltr;
+    color:red
+}
+.title-container:hover{
+cursor: pointer;
+border: 2px solid rgb(15, 109, 126);
+}
+.ass-title > span > a{
+    text-decoration: none;
+    color: inherit;
+}
+.ass-title > span > a:hover{
+    color: rgb(12, 190, 71);
+}
+
+.assin1,.assin2,.assin1-2,.assin2-2,.assin4-2,.assin5-2,.assin5-3,.asz3{
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid hsla(0, 0%, 66%, 0.11);
+
+}
+.assin1{
+    text-align: center;
+}
+
+.parent>.child>.title{
+color: red;
+}
+
+.parent .title{
+    color:BLue;
+}
+.parent>p,.title{
+    color: green;
+}
+
+.title-one,.title-two,.title-three,.title-three-many{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    max-width: 380px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.assin2-2,.assin1-2{
+    text-align: center;
+    
+}
+.assin1-2{
+    font-size: 80px;
+    text-shadow: red 2px 2px ,rgb(11, 202, 91) 4px 4px ,blue 6px 6px , rebeccapurple 8px 8px;
+}
+.assin2-2{
+    font-size: 30px;
+}
+.assin2-2>.one{
+    text-transform: uppercase;
+}
+.assin2-2>.two{
+    text-transform: capitalize;
+}
+.assin2-2>.three{
+    text-transform: lowercase;
+    
+}
+
+.assin3-2{
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    background-color: aliceblue;
+    
+
+}
+.text-one,.text-two,.text-three{
+    background-color: rgb(228, 241, 241);
+    width: 380px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+    
+}
+.text-two{
+    white-space: pre;
+    overflow: hidden;
+    word-break: break-all;
+    
+}
+
+.text-three{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.link{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    background-color: rgba(9, 184, 131, 0.767);
+    color: rgb(255, 255, 255);
+    border-bottom: 15px solid rgba(124, 121, 121, 0.459);
+    
+}
+
+
+.assin5-2{
+    text-align: center;
+    border: 3px rgba(158, 64, 51, 0.445) solid;
+    border-radius: 0;
+    padding: 19px 10px 12px;
+}
+.assin5-2-1-p{
+    display: block;
+    text-align: center;
+    margin: inherit;
+    border: inherit;
+    width: fit-content;
+    border-radius: 0;
+    padding: inherit;
+}
+
+.assin5-3{
+    text-align: center;
+    
+}
+
+.assin5-3>p{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(228, 241, 241);
+    margin-bottom: 10px;
+}
+
+.assin5-2-1-p-1{
+    font-size: 3.125rem;
+}
+
+.assin5-2-1-p-2{
+    font-size: 2.5rem;
+}
+
+.assin5-2-1-p-3{
+    font-size: 1.875rem;
+}
+
+.p2-1{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
+}
+.p2-2{
+    font-family: 'Cairo';
+    font-weight: 700;
+    
+}
+
+.p2-3{
+    font-family: 'Jomhuria';
+    font-weight: 400;
+    
+}
+

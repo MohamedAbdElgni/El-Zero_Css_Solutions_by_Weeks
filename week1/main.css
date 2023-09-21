@@ -1,6 +1,8 @@
 * {
     font-weight: bold;
-    font-family: "Cairo", sans-serif;
+    font-family: "Cairo", sans-serif, "Open Sans";
+    word-spacing: 4px;
+    letter-spacing:1px;
 }
 /* assg 1 , 5-8 */
 .title-container,.title-container-big-title,.title-container-sml{
